@@ -6,6 +6,8 @@ ADD ./sources.list /etc/apt/sources.list
 
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends \
+        git-all \
+        openssh-client \
         curl \
         gnupg \
         libz-dev \
